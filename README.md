@@ -18,7 +18,7 @@
 </ol>
 
 <h2>Exemplo de uso</h2>
-<p>Aqui está um exemplo de código Python que pode ser transpilado para JavaScript usando o PyJSTranspiler:</p>
+<p>Um exemplo de código Python que pode ser transpilado para JavaScript usando o PyJSTranspiler:</p>
 
 <pre><code>def greet(name):
     print(f"Hello, {name}!")
