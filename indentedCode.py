@@ -41,7 +41,7 @@ def transpile_expr(node):
         return f"[{', '.join(elements)}]"
     else:
         raise NotImplementedError(
-            f"Não foi implementado o suporte para o nó {type(node)}")
+            f"Não foi implementado o suporte para o nó {type(node)}") # exit
 
 
 def transpile_stmt(node, indent_level=0):
@@ -93,13 +93,11 @@ for name in names:
    greet(name)
 """
 
-
 js_code = transpile(python_code)
 
 
 with open("output.js", "w") as output_file:
     output_file.write(js_code)
-
 
 print("Código gerado em output.js")
 # [código indentado]
