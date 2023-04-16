@@ -39,7 +39,7 @@ def transpile_expr(node):
         return f"[{', '.join(elements)}]"
     else:
         raise NotImplementedError(
-            f"Não foi implementado o suporte para o nó {type(node)}")
+            f"Não foi implementado o suporte para o nó {type(node)}") # exit
 
 
 def transpile_stmt(node):
@@ -62,7 +62,7 @@ def transpile_stmt(node):
         return f"for (let {target} of {iter_}) {{\n{body}\n}}"
     else:
         raise NotImplementedError(
-            f"Não foi implementado o suporte para o nó {type(node)}")
+            f"Não foi implementado o suporte para o nó {type(node)}") # exit
 
 
 def transpile(code):
@@ -73,7 +73,6 @@ def transpile(code):
         output.append(transpile_stmt(node))
 
     return "\n".join(output)
-
 
 python_code = """
 def greet(name):
