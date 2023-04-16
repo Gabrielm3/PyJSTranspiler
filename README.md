@@ -2,7 +2,7 @@
 <p>O PyJSTranspiler é uma ferramenta que permite transpilar Python em JavaScript.</p>
 
 <div>
-    <img src="https://github.com/Gabrielm3/PyJSTranspiler/blob/master/PyJSTranspiler.png" alt="Go">
+    <img src="https://github.com/Gabrielm3/PyJSTranspiler/blob/master/PyJSTranspiler.png">
 </div>
 
 <h2>Como usar</h2>
